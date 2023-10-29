@@ -1,0 +1,121 @@
+1.
+If A is an nxn matrix, derive the characteristic polynomial of A.
+    p(λ) = det(A - λI)
+
+    A - λ*I，A 對角線元素換成 (A - λI)
+    計算 (A - λI) 的行列式
+
+2.
+Let W ⊂ R⁴ be the subspace of vectors (X₁,X₂,X₃,X₄), satisfying 2X₁-X₃+4X₄=0.Find an *orthogonal basis for W.
+
+    X₁ = 1/2 * (X₃-4X₄)
+
+    1/2,0,1,0
+    0,1,0,1
+
+3. 
+Solve the differential equations, where x(0) = 1 and y(0) = 0.
+    dx/dt = 3x-4y, dy/dt = 2x-3y
+
+    dx / (3x - 4y) = dt => 積分 => ∫(1 / (3x - 4y)) dx = ∫dt
+    1 / (3x - 4y) = A / 3x + B / (-4y) => 同乘 => 1 = A(-4y) + B(3x)
+
+    因為 x(0) = 1 和 y(0) = 0
+    1 = A(0) + B(3*1)   =>  B = 1/3
+    1 = A(-40) + (1/3)(31)  =>  A = 1/3
+    1 / (3x - 4y) = (1/3) / 3x + (1/3) / (-4y) => 積分 => (1/3) ∫ (1 / 3x) dx - (1/3) ∫ (1 / 4y) dy = ∫ dt
+    
+    (1/3) ln|3x| - (1/3) ln|4y| = t + C
+    ln|3x / 4y| = 3t + 3C
+    3x / 4y = e^(3t + 3C)  # 另 e^(3C) = K
+    3x / 4y = Ke^(3t)
+    --------------------------------------------
+    dy/dt = 2x - 3y
+    dy / (2x - 3y) = dt
+    ln|2x / 3y| = 2t + D
+    2x / 3y = Fe^(2t)
+    y = (2x / 3F)e^(2t)
+    1 = (40K)e^(30)
+
+    Answer:
+    x = (4yK)e^(3t)
+    y = 0
+    & K = 任何一個不是0的常數
+4.
+Please explain the reason if there is ab orthogonal transformation T from R³ to R³.
+    T[2,5,0]^T=[5,0,2]^T and T[-5,2,0]^T=[2,-5,0]^T
+    
+    r2 = r2 - 5 * r1
+    r1 = r1 - 2 * r3
+
+    [ 1  0  0 |  2  5  0 ]
+    [ 0  1  0 |  5 -25 2 ]
+    [ 0  0  1 |  0  2 -5 ]
+
+    Answer:
+        [ 1  0  0 ]
+    T = [ 0  1  0 ]
+        [ 0 -5  1 ]
+
+5.
+Given a matrix A, find (a) the reduced row echelon form R and the ran of A, (b) a low triangular matrix L and an upper triangular matrix U so thhat A = LU and (c) the null space of A.
+    |   2   4   -2  2   4   |
+    |   5   10  -4  5   9   |
+A = |   3   6   -2  1   9   |
+    |   1   2   -1  2   0   |
+    (a)
+        |   1   0   0   0   |   2   4   -2  2   4   |
+        |   0   1   0   0   |   5   10  -4  5   9   |
+        |   0   0   1   0   |   3   6   -2  1   9   |
+        |   0   0   0   1   |   1   2   -1  2   0   |
+
+        |   1   0   0   0   |   2   4   -2  2   4   |
+        |  5/2  1   0   0   |   0   0    1  0  -1   |
+        |  3/2  0   1   0   |   0   0    1 -2   3   |
+        |  1/2  0   0   1   |   0   0    0  1  -2   |
+
+        |   1   0   0   0   |   2   4   -2  2   4   |
+        |  5/2  1   0   0   |   0   0    1  0  -1   |
+        |  3/2 -1   1   0   |   0   0    0 -2   4   |
+        |  1/2  0  1/2   1  |   0   0    0  0   0   |
+
+    (b)
+    (c)
+        x = [x1, x2, x3, x4, 0]
+
+6.
+Let A = [[0,1],[2,3]].Show that A²=[[5,3],[6,14]] is linear combination of A and I₂.
+        | 0  1 |
+    A = | 2  3 |
+    
+        | 5  3 |
+    A² =| 6 14 |
+
+        | 1  0 |
+    I₂ =| 0  1 |
+                    | 0    X |   | Y  0 |   | Y    X |
+    X*A+Y*I=A²  =>  | 2X  3X | + | 0  Y | = |2X  3X+Y|
+
+    Y = 5, X = 3
+
+7. Please caculate 4⁵³²(mod 11)
+    modular arithmetic : 4⁵³² => 4²
+    4² = 16
+    16 mod 11 = 5
+
+8. Let A = {7,8,9}.Please list all the subsets of A
+    {} {7} {8} {9}
+    {7, 8} {7, 9} {8, 9}
+    {7, 8, 9}
+
+9.Please identity the mimimum dominating set of the graph below(沒方向只是為了表示圖片而已)
+|   1               4               6   |
+|       ↘       ↗       ↘           ↑   |
+|           2       →       5   →   7   |
+|       ↗                               |
+|   3                                   |
+    {1, 4, 7} &  {2, 4, 6}
+
+
+10. Given a group G with |G| = p, where p is a prime number. How many different sizes of subgroups can G have?
+    2, ({e},G)
