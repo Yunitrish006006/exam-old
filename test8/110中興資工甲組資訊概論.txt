@@ -16,15 +16,15 @@
 
 3.
 {
-    A.a
+    A.b
     B.c(https://www.geeksforgeeks.org/gate-gate-cs-2006-question-62/)
     C.c
-    D.b(https://cs.stackexchange.com/questions/97347/how-earliest-that-the-data-tlb-translation-lookaside-buffer-can-be-accessed-in)
+    D.c(https://www.geeksforgeeks.org/gate-gate-cs-2008-question-38/)
 }
 
 4.
 {
-    A.c
+    A.b(https://geeksforgeeks.org/gate-gate-cs-2008-question-36/)
     B.c
     C.d(https://www.geeksforgeeks.org/gate-gate-cs-2013-question-28/)
     D.a(https://www.geeksforgeeks.org/gate-gate-cs-2008-question-35/)
@@ -34,40 +34,41 @@
 {
     A.b(https://byjus.com/question-answer/consider-a-pipelined-processor-with-the-following-four-stages-if-instruction-fetch-id-instruction-decode/)
     B.a(https://gateoverflow.in/1657/gate-cse-1998-question-1-20)
-    C.c
+    C.d
     D.d
 }
 
 6.
 {
-    A.
-    B.
-    C.
-    D.
+    A.c
+    B.e
+    C.a
 }
 
 7.
 {
-    A.
-    B.
-    C.
-    D.
+    A.b(https://www.geeksforgeeks.org/data-structures-graph-question-12/)
+    B.c
+    C.b
+    D.a
+    E.b
 }
 
 8.
 {
-    A.
-    B.
-    C.
-    D.
+    A.e
+    B.c
+    C.c
+    D.a
 }
 
 9.
 {
-    A.
-    B.
-    C.
-    D.
+    A.e
+    B.a
+    C.e
+    D.c
+    E.d
 }
 
 10.
