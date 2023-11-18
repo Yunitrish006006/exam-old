@@ -15,7 +15,9 @@
 
         then we knew that we have a regular:
             each line we can  get 9 of n*101 and we get 0+10+20+...+90
-        so, our answer is $(9*10)/2 * 101 + 9*10*(9*10)/2 = 45 * 191 = 8595$
+        so, our answer is 
+
+    $(9*10)/2 * 101 * 9 + 9*10*(9*10)/2 = 45 * 999 = 44955$
 
 2. Determine the generating function for the sequence 1, 1, 1,...,1,0,0,..., where the first n+1 terms are 1.
 
@@ -31,25 +33,9 @@
     所以答案 = n!
 4. Solve the recurrence relation $a_{n+2}-5a_{n+1}+6a_n=2,n \ge 0,a_0=3,a_1=7$.
 
-    $a_{n+2}-5a_{n+1}+6a_n=2$
+    $a_0 = 3,a_1 = 7, a_2 = 19, a_3 = 50$
 
-    $r^2 = 5(r)-6, r = 2,3$
-
-    $a_n = c_12^n+c_23^n+c_3$
-
-    $a_0 = 3$ 帶入 $c_3 = 3$
-
-    $a_n = c_13^n+c_22^n+3$
-
-    $a_1 = 7$ 帶入 $7 = 3c_1+2c_2+3$
-
-    $a_2 = 19$ 帶入 $19 = 9c_1+4c_2+3$
-
-    $5 = 3c_1, c_1 = \frac53$
-
-    $-2 = -2c_2, c_2 = 1$
-
-    $a_n = 5*3^{n-1}+2^n+3$
+    ANS: $2*3^n + 1$
 
 5. Let $a, b \in Z$ and let $2a + 3b$ be a multiple of 17. (For example, we could have a = 7, b = 1; and a = 4, b = 3 also works.) Determine that the following statement is true or false: 17 divides 9a + 5b.
 
@@ -57,12 +43,14 @@
 
     $26a + 39b \equiv 0 \pmod{17}$
 
-    because gcd of 9 and 17 is 1
-
     $(9+17)a + (17*2+5)b \equiv 0 \pmod{17}$
 6. Determine the coordinate vector of w = (8, - 4, - 12) with respect to the basis{(1,1,1),(1,5,-3),(2,2,1)}.
 
-    (-45, 25, 28)
+    (8,-4,-12) = $c_1(1,1,1) + c_2 (1,5,-3) + c_3 (2,2,1)$
+
+    解:
+
+    (-53,-3,32)
 7. Let ${u_1,u_2,u_3}$ be an orthonormal basis for an inner product space V. If $x = c_1u_1+c_2u_2+c_3u_3$ is a vector with the properties $||x|| = 5$, $\langle u_i,x \rangle = 4$, and $x \perp u_2$, then what are the possible values of $c_1,c_2,c_3$?
 
     $c_1=4,c_2=0,c_3=3$
