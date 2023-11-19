@@ -5,7 +5,7 @@
 the following figure?
     - (b) We can show that the set {(x,y) | x,y are positive integers} is countable by finding a 1-1 mapping from (x,y) to an integer. Given (1,1)->1, (1,2)->2,(1,3)->4,(1,4)->7,(2,1)->3, (2,2)->5, (2,3)->8, (3,1)->6, (3,2)->9, (4,1)->10, please find which (x,y) maps to 465?
 2. 第二題
-    - (a) Please prove that x5-2x*+x3-2x3-7x-1=0 has a solution x which is an integer.
+    - (a) Please prove that $x^5-2x^4+x^3-2x^2-7x-1=0$ has a solution x which is an integer.
     - (b) Given a 4x82 grid, each vertex is colored in one of three different colors, please show that we can always find a rectangle with four vertices in the same color.
 
 3. 第三題
