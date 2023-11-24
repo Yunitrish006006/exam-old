@@ -16,7 +16,7 @@ double Leibniz(int n) {
             sum += (power(-1,n))/((2.0 * i) + 1);
         else
             sum -= (power(-1,n))/((2.0 * i) + 1);
-            printf("%f\n",(power(-1,n))/((2.0 * i) + 1));
+            // printf("%f\n",(power(-1,n))/((2.0 * i) + 1));
     }
     return 4*sum;
 }
