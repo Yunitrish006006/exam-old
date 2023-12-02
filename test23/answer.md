@@ -12,26 +12,20 @@
         *new_node->prev = stk;
     ```
 
-2. C
+2. A
 
 3. [教學](https://alrightchiu.github.io/SecondRound/red-black-tree-introjian-jie.html)
     A D 則一，A較合理，故答案為A
 
-4. (B) 8 maybe in, (F) 9 is in
+4. (A) 8 is in, (F) 9 is in
 
 5. [教學](https://cs.lmu.edu/~ray/notes/abtrees/)
     - delete 70
-        |    ~   |     80    |   ~   |
-        |  10,20 |   50,60   | 90,95 |
-    - delete 10
-        |  ~  |     20,80    |   ~   |
-        |   50,60  |  ~  |   90,95   |
+            |    ~   | 50,80  |   ~   |
+            |  10,20 |   60   | 90,95 |
     - delete 60
-        |  ~  |     80    |   ~   |
-        | 50,20 |  ~  |   90,95   |
-    - delete 95
-        |  ~  |    80  |   ~   |
-        | 50,20 |  ~  |   90   |
+            |    ~   | 50,80  |   ~   |
+            |  10,20 |   60   | 90,95 |
 
 6. X
 
@@ -41,7 +35,7 @@
 
 9. (A) i++; (B) return i; (C) arr, front, pivot -1 (D) arr, pivot + 1, end
 
-10. (B) inorder, (B) 6
+10. (B) inorder, (B) 6  -- C, E
 
 11. ?(A) 15, (A) 13, (A) 13
 
