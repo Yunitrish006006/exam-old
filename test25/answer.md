@@ -9,7 +9,7 @@
 4. Ans:
     - d
 5. Ans:
-    - d
+    - b
 6. Ans:
 
     ``` python
