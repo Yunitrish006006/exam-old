@@ -31,5 +31,5 @@ def previous_permutation(nums):
   return nums
 
 nums = list(map(int, input().split()))
-print("next: "+ str(next_permutation(nums)))
+# print("next: "+ str(next_permutation(nums)))
 print("prev: "+ str(previous_permutation(nums)))
