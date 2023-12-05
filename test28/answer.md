@@ -7,13 +7,13 @@
     - (4) E
     - (5) A
     - (6) A
-    - (7) C
-    - (8) D
-    - (9) C
+    - #(7) A
+    - #(8) A、C
+    - (9) A
     - (10) E
     - (11) B
-    - (12) A
-    - (13) A
+    - (12) E
+    - (13) D
     - (14) B
     - (15) C
 2. Ans:
@@ -32,7 +32,7 @@
     - if we can know the past two record is definately better than only one pass record,
         - 2 bit: 11 => 1, 10 => 0, 01 => 1, 00 => 0
         - 1 bit: 1 => 1, 0 => 0
-6. Ans:
+6. Ans: 11, 5
 7. Ans:
     1. For Device security
     2. For better software and hardware fitness
