@@ -1,23 +1,18 @@
 # 107 中正 計算機系統
 
 1. Selection
-    - (1) C
-    - (2) B
+    - (1) D
+    - (2) C
     - (3) C
     - (4) A
     - (5) A
     - (6) A
     - (7) C
-    - (8) A
+    - (8) D
     - (9) A
     - (10) E
 2. Ans:
-    12 direct blocks x 8 KB/block  
-    1 single indirect block x (2048 x 4) KB/block  
-    1 double indirect block x 2048 x (2048 x 4) KB/block  
-    1 triple indirect block x 2048 x (2048 x (2048 x 4)) KB/block  
-    = 4((2^11)^3 + (2^11)^2 + (2^11) + 12 x 8) KB  
-    = 3435 TB  
+    ManSize = (12x8KB +(2048x8KB) + (2048x2048x8KB) + (2048 x 2048 x 2048 x 8KB)) ~ 64TB
 3. Ans:
     - (a)
         P1: 10 / 50 = 0.2  
